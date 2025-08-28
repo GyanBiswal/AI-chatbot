@@ -19,6 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@google/genai": "^1.16.0",
+    "cookie": "^1.0.2",
     "cookie-parser": "^1.4.7",
     "socket.io": "^4.8.1"
   }
