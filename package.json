@@ -1,0 +1,25 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/GyanBiswal/AI-chatbot#readme",
+  "bugs": {
+    "url": "https://github.com/GyanBiswal/AI-chatbot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GyanBiswal/AI-chatbot.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "socket.io": "^4.8.1"
+  }
+}
